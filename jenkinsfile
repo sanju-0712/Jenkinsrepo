@@ -20,10 +20,14 @@ steps{
 echo "Compiling the Project.........."
 }
 }
-stage('Deploy') 
-{
+stage('Deploy') {
 steps{
 echo "Deploying the Project.........."
+}
+}
+stage('release'){
+steps{
+echo " released to the production "
 }
 }
 }
